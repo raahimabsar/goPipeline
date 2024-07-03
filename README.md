@@ -4,11 +4,11 @@ This project is a simple Go-based order processing system that demonstrates the 
 # Overview
 The system consists of two main components:
 
-Order Receiver: Reads raw orders from a predefined list and sends them to a channel.
+Order Receiver: Reads raw orders from a predefined list and sends them to a channel.\n
 Order Validator: Validates the orders received and segregates them into valid and invalid orders.
 
 # Features
-Concurrent Order Processing: Utilizes Go's concurrency features to handle orders efficiently.
-Order Validation: Ensures that orders meet the required criteria before being processed.
+Concurrent Order Processing: Utilizes Go's concurrency features to handle orders efficiently.\n
+Order Validation: Ensures that orders meet the required criteria before being processed.\n
 Error Handling: Invalid orders are logged with appropriate error messages.
 
